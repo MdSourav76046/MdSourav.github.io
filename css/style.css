@@ -152,6 +152,7 @@
 }
 .wa{
     color: #25D366;
+    transition: all .3s ease;
 }
 .wa:hover{
     color: white;
@@ -159,6 +160,7 @@
 }
 .tt{
     color:#00ACEE;
+    transition: all .3s ease;
 }
 .tt:hover{
     color: white;
@@ -166,13 +168,16 @@
 }
 .ld{
     color: #0077b5;
+    transition: all .3s ease;
 }
 .ld:hover{
     color: white;
     background-color: #0077b5;
+    
 }
 .sc{
     color: #FFFC00;
+    transition: all .3s ease;
 }
 .sc:hover{
     color: white;
@@ -384,8 +389,8 @@
         width: 80%;
     }
     .skills-info{
-        width: 75vw;
-        margin: auto;
+        width: 100vw;
+        margin-left: 15vw;
     }
     .skills-info li{
         letter-spacing: 2px;
