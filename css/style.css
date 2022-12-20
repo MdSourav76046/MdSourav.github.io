@@ -387,6 +387,15 @@
         width: 65vw;
         margin: auto;
     }
+    .skills-info li{
+        letter-spacing: 2px;
+    }
+    .para p{
+        letter-spacing: 2px;
+    }
+    .trace p{
+        letter-spacing: 2px;
+    }
 
 }
 
@@ -394,8 +403,19 @@
     .about-me{
         font-size: 1.7rem;
     }
+    .my-info-info p{
+        font-size: 1.1rem;
+    }
+    .para p{
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
     .trace p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .skills-info li{
+        letter-spacing: 2px;
     }
 }
 
