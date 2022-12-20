@@ -384,7 +384,7 @@
         width: 80%;
     }
     .skills-info{
-        width: 65vw;
+        width: 75vw;
         margin: auto;
     }
     .skills-info li{
@@ -415,7 +415,7 @@
         letter-spacing: 2px;
     }
     .skills-info li{
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 }
 
