@@ -213,6 +213,7 @@
     font-size: 1.3rem;
     letter-spacing: 2px;
     border-right: #0f8f13 .5px dotted;
+    word-spacing: 5px;
 }
 .para p{
     color: #474949;
@@ -284,6 +285,7 @@
     display: none;
 }
 
+
 /*----------------Media Query Start-----------------------------*/
 
 @media only screen and (max-width: 1200px) {
@@ -349,14 +351,16 @@
         width: 100vw;
     }
     .my-info{
-        width: 80%;
+        width: 80vw;
         margin: auto;
+        flex-direction: column;
     }
     .about-me{
         height: 10vh;
+        margin-left: 10vw;
     }
-    .my-info{
-        flex-direction: column;
+    .vitor{
+        margin: 0;
     }
     .para{
         width: 100%;
@@ -373,8 +377,28 @@
         left: 0;
         z-index: 5;
     }
+    .fit i{
+        font-size: 1rem;
+    }
+    .links{
+        width: 80%;
+    }
+    .skills-info{
+        width: 65vw;
+        margin: auto;
+    }
 
 }
+
+@media only screen and (max-width: 450px) {
+    .about-me{
+        font-size: 1.7rem;
+    }
+    .trace p{
+        font-size: 1.2rem;
+    }
+}
+
 
 /*-----------------Media Query End-----------------------------*/
 /* #0f8f13 */
