@@ -253,12 +253,12 @@ textarea:focus, input:focus {
     .contact p{
         color: white;
     }
-    .btn{
-        padding: 2rem;
-    }
 }
 
 @media screen and (max-width: 500px){
+    .contact p{
+        font-size: 1.7rem;
+    }
     #About-me{
         width: 100vw;
         height: auto;
@@ -295,6 +295,12 @@ textarea:focus, input:focus {
     }
     .ok p{
         letter-spacing: 2px;
+    }
+    .custom-field .placeholder {
+        font-size: 11px;
+    }
+    .custom-field input {
+        
     }
 }
 
