@@ -2,219 +2,204 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-.navbar{
-    height: 7vh;
-    z-index: 3;
-    background-color: rgb(255, 255, 255);
-    /* opacity: 80%; */
-    box-shadow: 2px 1px 1px 1px rgb(138, 135, 135) ;
 }
 
-.navbar-nav{
-    margin-left: auto;
-}
-
-.navbar-nav a{
-    margin-left: 2rem;
-    font-weight: bold;
-    opacity: 100%;
-}
-
-.home{
-    width: auto;
-    height: 91vh;
-    background-color: rgb(1, 5, 37);
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    background-color: white;
+    /* background:linear-gradient(to top, rgb(234, 247, 176),rgb(237, 243, 182),rgb(238, 241, 217),rgb(238, 237, 237)); */
+
 }
-.home p{
+#About-me{
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.contact span{
+    color: rgb(106, 136, 235);
+    border-bottom: 2px solid rgb(106, 136, 235);
+}
+.contact p{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.ek{
+    width: 40%;
+    height: 90%;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/address.jpg);
+    background-size: cover;
+}
+
+.dokka{
+    width: 57%;
+    height: 100%;
+    padding: 2rem;
+    background-color:rgb(0, 0, 0);
+    border-radius: 1rem;
+}
+.two{
+    /* background-color: rgb(5, 5, 5); */
+    width: 100%;
+    height: 90%;
+    display: grid;
+    /* padding: 2rem; */
+    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas: "box1 . box2"
+                        "box3 . box4"
+                        "box5 box5 box5";
+                        
+}
+.two .st{
     color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
-.name{
+.ok{
+    margin: 3rem 0;
+}
+.ok p{
+    color: white;
     letter-spacing: 2px;
 }
-
-.job{
-    letter-spacing: 3px;
+.font{
+    font-size: 1.5rem;
 }
-.info{
-    width: 50%;
-}
-.picture img{
-    width:32rem;
-    border-radius: 30%;
-}
-
-.links i{
-    height:3.4rem;
-    width: 3.4rem;
-    border-radius: 50%;
-    line-height: 3.4rem;
-    font-size: 1.7rem;
-    text-align: center;
+.font i {
     margin-right: 1rem;
-}
-.fb{
-    color: 	#4267B2;
-    transition: all .3s ease;
-}
-.fb:hover{
-    color: white;
-    background-color:#4267B2 ;
-}
-.wa{
-    color: #25D366;
-    transition: all .3s ease;
-}
-.wa:hover{
-    color: white;
-    background-color:#25D366 ;
-}
-.tt{
-    color:#00ACEE;
-    transition: all .3s ease;
-}
-.tt:hover{
-    color: white;
-    background-color: #00ACEE;
-}
-.ld{
-    color: #0077b5;
-    transition: all .3s ease;
-}
-.ld:hover{
-    color: white;
-    background-color: #0077b5;
-    
-}
-.sc{
-    color: #FFFC00;
-    transition: all .3s ease;
-}
-.sc:hover{
-    color: white;
-    background-color: #FFFC00;
-}
-#About{
-    width: 80%;
-    margin: auto;
-    /* padding: 0 2rem; */
-    background-color: white;
-}
-#Project{
-    width: 80%;
-    margin: auto;
-}
-.about-me{
-    color: #0e47b8;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-bottom: .2rem solid rgb(1, 5, 37);
-    width: 5%;
-}
-
-.porichoy{
-    letter-spacing: 1.5px;
-}
-
-a{
-    text-decoration: none;
-}
-
-.baki img{
-    width: 30%;
-}
-
-.profession{
-    font-size: 1.4rem;
-    color: #0e47b8;
-}
-.profession-info{
-    letter-spacing: 1px;
-    font-style: italic;
-}
-.cv p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.cv-1{
-    width: 50%;
+.two-1{
+    grid-area: box1;
 }
-.cv i {
-    color: #5e8ef0;
+.two-2{
+    grid-area: box2;
 }
-.profession-footer{
-    letter-spacing: 1px;
+.two-3{
+    grid-area: box3;
 }
-.carousel{
-    width: 40%;
-    height: auto;
-    margin: auto;
+.two-4{
+    grid-area: box4;
 }
-#Project p{
-    letter-spacing: 1px;
+.two-5{
+    grid-area: box5;
 }
 
-.carousel-item:hover{
-    opacity: 60%;
-}
 
-#Contact{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 10rem;
+.custom-field {
+    position: relative;
+    font-size: 14px;
+    border-top: 20px solid transparent;
+    margin-bottom: 5px;
+    display: inline-block;
+    --field-padding: 12px;
+    /* background-color: aqua; */
 }
-
-.last-1{
-    width: 40%;
-    background-color:whitesmoke;
-    margin-right: 1rem;
-    justify-content: space-between;
-    height: 35rem;
-    padding: 2rem;
-    box-shadow: 2px 2px 2px 2px rgb(148, 146, 146);
-}
-
-.last-2{
-    width: 60%;
-    padding: 3rem;
-    background-color: whitesmoke;
-}
-
-.one-1 i {
-    height: 3rem;
-    width: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 3rem;
-    background-color:#74d3f8;
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    line-height: -1rem;
-    margin-right: 1rem;
-}
-
-.one-2{
-    /* background-color: #25D366; */
-    height: 3rem;
-    line-height: 3rem;
-}
-.one-2 span{
-    color:#0e47b8
-}
-.map iframe{
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #272222;
+    padding: var(--field-padding);
+    border-radius: 3px;
     width: 100%;
-    height: 16rem;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(238, 235, 235);
+}
+.custom-field .placeholder {
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 22px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: rgb(170, 164, 164);
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+}
+.custom-field input.dirty + .placeholder,
+.custom-field input:focus + .placeholder,
+.custom-field input:not(:placeholder-shown) + .placeholder {
+    top: -1rem;
+    font-size: .9rem;
+    color: rgb(245, 243, 243);
+}
+input::placeholder{
+    color: white;;
+}
+
+
+.extra input{
+    height: 100%;
+    padding-bottom: 8rem;
+    overflow-wrap: normal;
 }
 
 .btn{
-    background-color:#4267B2;
-    color: white;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
 }
 
+.btn button{
+    font-size: .8rem;
+    padding:.5rem 2rem;
+    margin-top: 1rem;
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+
+.not-valid{
+    margin-top: 4px;
+    color: rgb(241, 105, 105);
+    display: block;
+}
+
+.valid{
+    display: none;
+}
 
 
