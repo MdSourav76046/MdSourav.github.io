@@ -202,4 +202,100 @@ textarea:focus, input:focus {
     display: none;
 }
 
+@media screen and (max-width: 1000px){
+    .font{
+        font-size:1.2rem ;
+    }
+    #About-me{
+        width: 95vw;
+    }
+    .container{
+        width: 95%;
+    }  
+}
+
+@media screen and (max-width: 800px){
+    .font{
+        font-size:1.1rem;
+    }
+    .ok p{
+        letter-spacing: 1px;
+    }
+    #About-me{
+        width: 95vw;
+    }
+    .container{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width: 600px){
+    #About-me{
+        width: 100vw;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .ek{
+        width: 100%;
+        border-radius: 0;
+    }
+    .dokka{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .contact{
+        padding: 3rem 0 2rem  0;
+        background-color: black;
+    }
+    .contact p{
+        color: white;
+    }
+    .btn{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #About-me{
+        width: 100vw;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .ek{
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 4rem;
+    }
+    .dokka{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .contact{
+        padding: 3rem 0 2rem  0;
+        background-color: black;
+    }
+    .contact p{
+        color: white;
+    }
+    .two{
+        /* background-color: rgb(5, 5, 5); */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;                 
+    }
+    .font{
+        font-size:1rem;
+    }
+    .ok p{
+        letter-spacing: 2px;
+    }
+}
+
 
